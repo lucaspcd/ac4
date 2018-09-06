@@ -1,0 +1,87 @@
+body{
+margin: 0px;
+}
+
+form{
+	text-align: center;
+	width: 400px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.nome, .email, .text{
+background: lightblue;
+font-weight: bold;
+width: 20ch;
+}
+
+.nome:focus, .email:focus, .text:focus{
+background: #fff;
+}
+
+.labelNome, .textArea{
+font-style: italic;
+}
+
+.endereco{
+background: lightblue;
+font-weight: bold;
+width: 30ch;
+}
+
+.endereco:focus{
+background: #fff;
+}
+
+
+.labelEndereco{
+font-style: italic;
+}
+
+.cidade, .uf, .rg{
+background: lightblue;
+font-weight: bold;
+}
+
+.cidade:focus, .uf:focus, .rg:focus{
+background: #fff;
+}
+
+.labelCidade, .labelUf, .labelRg{
+font-style: italic;
+}
+
+.cpf{
+width: 11ch;
+background: lightblue;
+font-weight: bold;
+}
+
+.cpf:focus{
+background: #fff;
+}
+
+.labelRS{
+	margin-top: 20px;
+}
+
+.text{
+	width: 200px !important;
+	height: 86px;
+}
+
+label{
+	font-size: 17.5px !important;
+}
+
+button{
+	font-size: 17px;
+	width: 60px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+button:focus{
+	background: lightblue;
+}
